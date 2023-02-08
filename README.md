@@ -29,7 +29,7 @@ Users should be able to:
 
 ![Screenshot (24)](https://user-images.githubusercontent.com/79919159/217642878-76b13e60-ad0d-4544-9c8c-ef7fe2c18720.png)
 
-![Alt text](<c:/Users/Aspire5/Desktop/Screenshot%20(25).png>)
+![Screenshot (25)](https://user-images.githubusercontent.com/79919159/217643194-3f8ca2b6-ce4d-4b65-aa41-8acbf2edcffb.png)
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 
