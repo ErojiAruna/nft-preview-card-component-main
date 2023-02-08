@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Alt text](<c:/Users/Aspire5/Desktop/Screenshot%20(24).png>)
+![Screenshot (24)](https://user-images.githubusercontent.com/79919159/217642878-76b13e60-ad0d-4544-9c8c-ef7fe2c18720.png)
 
 ![Alt text](<c:/Users/Aspire5/Desktop/Screenshot%20(25).png>)
 
