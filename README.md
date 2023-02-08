@@ -43,5 +43,5 @@ Users should be able to:
 
 ### What I learned
 
-Learned CSS Properties
+Learned about CSS Properties
 
