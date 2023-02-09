@@ -29,7 +29,7 @@ Users should be able to:
 
 ![Screenshot (25)](https://user-images.githubusercontent.com/79919159/217643194-3f8ca2b6-ce4d-4b65-aa41-8acbf2edcffb.png)
 
-- Solution: [Add solution URL here](https://peaceful-buttercream-de56f6.netlify.app/)
+- Solution: [View my solution online](https://peaceful-buttercream-de56f6.netlify.app/)
 
 ## My process
 
