@@ -17,97 +17,90 @@
 
 body {
   background-color: var(--clr-main-bg);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'Outfit', sans-serif;
-  position: relative;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card {
+.container {
+  width: 340px;
   padding: 20px;
-  max-width: 300px;
   background-color: var(--clr-card-bg);
-  margin: 100px auto;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/*.card-img img {
-  
-}*/
-.card__img img {
-  border-radius: 8px;
-}
-.card .card__img {
+
+.card-img {
   position: relative;
 }
-
-.card .card__img div {
+.overlay-effect {
   position: absolute;
-  background-color: var(--clr-icon);
-  width: 100%;
-  height: calc(100% - 4px);
-  border-radius: 8px;
   top: 0;
-  z-index: 1;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
-.card .card__img div:hover {
-  opacity: 1;
-  cursor: pointer;
+  background-color: var(--clr-icon);
+  border-radius: 8px;
 }
 
-.card .card__img div img {
+.eq-image {
+  border-radius: 8px;
+}
+
+.icon {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
+  text-align: center;
   transform: translate(-50%, -50%);
 }
 
-.card h3 {
-  color: var(--clr-highlight);
-  font-weight: 600;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  font-size: 18px;
+.card-text {
+  margin-top: 1em;
 }
 
-.card a {
+.card-text a {
   text-decoration: none;
+  font-size: 18px;
   color: var(--clr-highlight);
+  font-weight: 700;
 }
 
-.card p {
+p {
   color: var(--clr-text);
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
-.card .flex__items {
+.flex-items {
   display: flex;
   justify-content: space-between;
-  text-align: center;
+  align-items: baseline;
   color: var(--clr-text);
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 0.5em;
 }
 
-.price,
-.time__left {
-  display: flex;
-  align-items: center;
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.price {
+.item-1 {
   color: var(--clr-price);
   font-weight: 400;
 }
 
 .card-icon {
-  margin-right: 6px;
+  margin-right: 5px;
+  margin-bottom: -2px;
 }
 
 hr {
@@ -117,35 +110,33 @@ hr {
 }
 
 .avatar {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.avatar .avatar__img {
-  border-radius: 50px;
+.avatar img {
+  margin-right: 10px;
+  border-radius: 50%;
   height: 34px;
   width: 34px;
   border: 2px solid white;
-  margin-right: 2px;
-  vertical-align: baseline;
 }
 
-.avatar p {
-  margin: 10px;
+.avatar p a {
+  text-decoration: none;
+  color: var(--clr-highlight);
 }
 
 .card a:hover {
   color: var(--clr-price);
 }
 
-.attribution {
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  margin-top: -50px;
+.card-img:hover .overlay-effect {
+  opacity: 0.8;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.card-text a:hover,
+.avatar p a:hover {
+  color: var(--clr-price);
 }
